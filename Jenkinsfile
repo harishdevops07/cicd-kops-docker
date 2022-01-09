@@ -6,6 +6,7 @@ pipeline {
         maven "maven3"
     }
 */
+
     environment {
         registry = "harishdevops07/vprofileapp"
         registryCredential = 'dockerhub'
